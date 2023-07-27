@@ -1,5 +1,5 @@
 FROM node:16-alpine
- copy ./app
+ copy . /app
  CMD node app/app.js
   EXPOSE 3000
   
